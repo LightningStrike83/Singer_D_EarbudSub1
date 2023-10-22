@@ -32,6 +32,11 @@ model-viewer {
   width: 400px;
 }
 
+.hotspot_icon {
+  height: 50px;
+  margin-bottom: 10px;
+}
+
 :not(:defined) > * {
   display: none;
 }
@@ -221,6 +226,10 @@ model-viewer > #ar-prompt > img {
   .Hotspot:not([data-visible]) {
     height: 22px;
   }
+  .hotspot_icon {
+    height: 80px;
+    margin-bottom: 20px;
+  }
 }
 @media screen and (min-width: 1200px) {
   model-viewer {
@@ -232,5 +241,9 @@ model-viewer > #ar-prompt > img {
   }
   .Hotspot:not([data-visible]) {
     height: 32px;
+  }
+  .hotspot_icon {
+    height: 100px;
+    margin-bottom: 20px;
   }
 }/*# sourceMappingURL=main.css.map */
