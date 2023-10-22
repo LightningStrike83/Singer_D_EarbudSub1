@@ -16,7 +16,8 @@
 
         {
             title: "Changing Faceplate",
-            info: "The area where we will insert a logo or image based on the source of the theme of the ear bud!"
+            info: "The area where we will insert a logo or image based on the source of the theme of the ear bud!",
+            image: "images/happy.svg"
         },
 
         {
@@ -26,7 +27,8 @@
 
         {
             title: "Snap and Plug",
-            info: "Easy to snap in charging port, with charges lasting up to 8 hours!"
+            info: "Easy to snap in charging port, with charges lasting up to 8 hours!",
+            image: "images/battery.svg"
         },
 
         {

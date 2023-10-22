@@ -1,8 +1,32 @@
 h2 {
-    margin-bottom: 20px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-family: 'Martian Mono', Arial, sans-serif;
 }
 
 p {
     font-weight: normal;
-    font-size: 16px;
+    font-size: 12px;
+    font-family: 'IBM Plex Sans', Arial, sans-serif;
+}
+
+@media screen and (min-width: 700px) {
+    h2 {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+   p {
+    font-size: 14px;
+   }
+}
+
+@media screen and (min-width: 1200px) {
+    h2 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 16px;
+    }
 }
