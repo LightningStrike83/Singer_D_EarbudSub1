@@ -6,12 +6,14 @@
     let hotspotInfo = [
         {
             title : "Flexible Brand",
-            info : "An adaptive and flexible brand to help you express yourself the way you deserve to express yourself!"
+            info : "An adaptive and flexible brand to help you express yourself the way you deserve to express yourself!",
+            image: "images/band.svg"
         },
 
         {
             title: "Comfort For Your Ears",
-            info: "A rubbery, but soft cushion so your ears can listen to whatever you want with as much comfort as possible!"
+            info: "A rubbery, but soft cushion so your ears can listen to whatever you want with as much comfort as possible!",
+            image: "images/ear.svg"
         },
 
         {
@@ -22,7 +24,8 @@
 
         {
             title: "Secure and Charge",
-            info: "Safety clips to ensure that the ear bud doesn't slip out of its case and doubles as alternative charger!"
+            info: "Safety clips to ensure that the ear bud doesn't slip out of its case and doubles as alternative charger!",
+            image:  "images/lock.svg"
         },
 
         {
@@ -33,7 +36,8 @@
 
         {
             title: "Hard Exterior",
-            info: "Durable shell that protects the components inside from serious damage!"
+            info: "Durable shell that protects the components inside from serious damage!",
+            image: "images/muscle.svg"
         },
     ]
 
@@ -47,9 +51,14 @@
 
             let paragraph = document.createElement("p");
             paragraph.textContent = hotspotBox.info;
+
+            let image = document.createElement("img")
+            image.src = hotspotBox.image
+            image.classList.add("hotspot_icon")
             
             hotspotTarget.appendChild(paragraph);
             hotspotTarget.appendChild(title);
+            hotspotTarget.appendChild(image)
         });
     }
 
